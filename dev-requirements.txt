@@ -1,0 +1,4 @@
+bs4 >= 0.0.1
+jieba >= 0.42.1
+requests >= 2.26.0
+autopep8 >= 1.5.7

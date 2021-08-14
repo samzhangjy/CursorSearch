@@ -1,0 +1,5 @@
+exp.py
+train.py
+*.db
+**/__pycache__
+venv
