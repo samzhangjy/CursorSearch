@@ -2,10 +2,27 @@
 
 Cursor Search is a simple search engine build with Python. It's simple to use, fully customizible, and, most importantly, light-weight.
 
-It supports Unicode-like word seperation using the 
-open source package Jieba.
+It supports Unicode-like word separation using the open source package Jieba.
 
 The search engine also includes Deep Learning to learn from the users' clicks.
+
+## Installation
+
+First, clone this repo:
+
+```bash
+$ git clone git@github.com:EHStudio/CursorSearch.git
+```
+
+Then install the dependencies:
+
+```bash
+$ pip install -r requirements.txt
+```
+
+And you're ready to go!
+
+## Usage
 
 Before you start searching, you'll need a database with crawled results stored. You can do this by the 
 `crawl` function. See the example below.
@@ -46,5 +63,13 @@ cursor_search = CursorSearch("your_db_name_here.db", weights=[  # Caution! List 
 ```
 
 For more details on the usage, please refer to the documentation.
+
+## Contributing
+
+We welcome all kinds of contributions! Including issues, pull requests, or feature requests!
+
+## License
+
+Please refer to the LICENSE file in the root for details.
 
 Enjoy!
